@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Flutter Dev",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        // "args": [
+        //   "--dart-define=mytn_env=dev"
+        // ]
+      },
+      {
+        "name": "Flutter PreProd",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        // "args": [
+        //   "--dart-define=mytn_env=preprod",
+        // ]
+      },
+      {
+        "name": "Flutter Prod",
+        "request": "launch",
+        "type": "dart",
+        "flutterMode": "debug",
+        // "args": [
+        //   "--dart-define=mytn_env=prod",
+        // ]
+      },
+      {
+        "name": "All Tests",
+        "program": "test/",
+        "request": "launch",
+        "flutterMode": "debug",
+        "type": "dart",
+      }
+    ]
+  }
+  
