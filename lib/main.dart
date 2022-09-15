@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:obotix/app/resources/app_strings.dart';
+import 'package:obotix/app/constants/app_strings.dart';
 import 'package:obotix/app/router/app_router.dart';
 
 void main() {

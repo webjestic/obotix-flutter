@@ -3,7 +3,7 @@
 ///
 import 'package:obotix/pages/home/home_page.dart';
 import 'package:obotix/pages/about/about_page.dart';
-import 'package:obotix/app/resources/app_strings.dart';
+import 'package:obotix/app/constants/app_strings.dart';
 
 class AppRouter {
   dynamic getRoutes() {
