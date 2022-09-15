@@ -6,27 +6,27 @@
         "request": "launch",
         "type": "dart",
         "flutterMode": "debug",
-        // "args": [
-        //   "--dart-define=mytn_env=dev"
-        // ]
+        "args": [
+          "--dart-define=appEnv=dev"
+        ]
       },
       {
-        "name": "Flutter PreProd",
+        "name": "Flutter Test",
         "request": "launch",
         "type": "dart",
-        "flutterMode": "debug",
-        // "args": [
-        //   "--dart-define=mytn_env=preprod",
-        // ]
+        "flutterMode": "profile",
+        "args": [
+          "--dart-define=appEnv=test",
+        ]
       },
       {
         "name": "Flutter Prod",
         "request": "launch",
         "type": "dart",
-        "flutterMode": "debug",
-        // "args": [
-        //   "--dart-define=mytn_env=prod",
-        // ]
+        "flutterMode": "release",
+        "args": [
+          "--dart-define=appEnv=prod",
+        ]
       },
       {
         "name": "All Tests",

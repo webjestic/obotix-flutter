@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:logging/logging.dart';
 
 class AppNavigator extends Navigator {
   const AppNavigator({Key? key}) : super(key: key);
@@ -9,6 +10,8 @@ class AppNavigator extends Navigator {
     String routeName, {
     Object? arguments,
   }) {
+    final log = Logger('_MyHomePageState');
+    log.info('Route: $routeName');
     return Navigator.of(context).pushNamed<T>(routeName, arguments: arguments);
   }
 }
